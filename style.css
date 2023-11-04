@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Lato&family=Roboto:wght@300;400&family=Rubik+Puddles&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Roboto';
+}
+#my-navbar{
+    height: 86px;
+}
+nav{
+    position:sticky;
+    top:0px;
+}
+.v-line{
+    height: 80px;
+}
+.search-bar{
+    width:45%;
+    border:1px solid #eeeeee;
+    border-radius:6px;
+    padding-left:10px;
+    background-color:#f8f8f8;
+}
+.search-bar>input{
+    width:90%;
+    border:none;
+    height: 50px;
+    padding:10px;
+    background-color: transparent;
+}
+.cate,footer{
+    width:82vw;
+    margin:auto;
+    }
+.cate>img{
+    width:150px;
+    height: 200px;
+}
