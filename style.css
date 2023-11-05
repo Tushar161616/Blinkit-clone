@@ -101,3 +101,14 @@ td{
     color:#6b6b6b;
     padding-bottom:10px;
 }
+.my-container>img{
+    display: inline-block;
+}
+.my-container{
+    white-space:nowrap;
+}
+.s-container{
+    width:85vw;
+    margin: auto;
+    overflow-x: scroll;
+}
