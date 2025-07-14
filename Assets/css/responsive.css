@@ -1,0 +1,122 @@
+@media screen and (max-width: 480px){
+    nav{
+        display: block;
+        position: relative;      
+    }
+    .cart,.login{
+        display: none;
+    }
+    .logo{
+        /* height: 20px !important;
+        width: 50px !important; */
+        display: none;
+    }
+    .v-line{
+        display: none;
+    }
+    #my-navbar{
+    height: 110px;
+    width: 100%;
+    }
+   
+    .location>h4{
+        font-size: 15px !important;
+    }
+    .location>p{
+        font-size: 10px !important;
+    }
+    .location{
+         /* border: 3px solid black; */
+         position: absolute;
+         top:5px;
+         left:5px;
+    }
+    .phn-user{
+        display: inline-block;
+        position: absolute;
+        top:10px;
+        right:10px;
+        border: 3px solid black;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        text-align: center;
+        padding: 5px !important;
+    }
+
+
+    .search-bar{
+        position: absolute;
+        bottom: 0px;
+        left: 10px;
+        height: 5vh;
+        width:90vw;
+        border:1px solid #eeeeee;
+        border-radius:6px;
+        background-color:#f8f8f8;
+        margin : 5px 10px; 
+        
+      
+    }
+  
+    .search-bar>input{
+        width:90%;
+        border:none;
+        height: 25px;
+        padding:5px;
+        background-color: transparent;
+        padding-left:5px !important;
+    }
+    .search-bar>i{
+        margin: 10px 5px;
+    }
+
+    .hero-section>a>img{
+        display: none;
+    }
+
+    .s-container{
+         /* border: 2px solid black; */
+         width: 95vw !important;
+         margin-top: 15px;
+         padding: 0px !important;
+    }
+    .my-container{
+            /* border: 2px solid black; */
+            width: 95vw !important;
+            white-space:nowrap;
+            overflow-x: scroll !important;
+    }
+    .my-container>a>img{
+        width: 200px !important;
+        height: 100px !important;
+    }
+    .cate{
+         /* border: 2px solid black;  */
+         padding: 15px !important;
+         margin-top: 20px;
+         margin-bottom: 20px;
+    }
+
+
+
+
+    footer{
+        display: none;
+    }
+    .phn-img{
+        /* border: 2px solid black;  */
+        width: 100% !important;
+        height: 50vh !important;
+        
+    }
+    .phn-btom{
+    display: block;
+}
+    .phn-div{
+         /* border: 2px solid black;  */
+         height: 35px !important;
+         padding: 5px !important;
+         
+    }
+}
